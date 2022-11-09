@@ -26,6 +26,7 @@
     text-decoration: none;
     font-family: "Montserrat", "bedfort&family";
     box-sizing: border-box;
+    
 }
 
 .header{
@@ -37,6 +38,7 @@
     align-items: center;
     height: 70px;
     padding: 0px 30px;
+    position: fixed;
 }
 
 .header img {
@@ -76,7 +78,7 @@
 .footer{
     width: 100%;
     height:80px;
-    background: gray;
+    background: linear-gradient(#f5e1cc, #1d5d79);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +92,7 @@
 }
 .footer a{
     
-    background: gray;
+    
     font-weight: 300;
     font-size: 12px;
     display: flex;
@@ -100,7 +102,7 @@
     
 }
 .tucuman{
-    background: gray;
+    
     font-size: 12px;
     display: flex;
     padding: 12px 0;
