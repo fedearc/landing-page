@@ -35,17 +35,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 70px;
     padding: 0px 30px;
 }
 
 .header img {
-    height: 90%;
+    height: 100%;
     
 }
     
 .navbar {
-    gap: 30px;
+    gap: 18px;
     justify-content: center;
 }
 
@@ -56,18 +56,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 12px;
 }
 .navbar p{
-    font-weight: 600;
+    font-weight: 800;
+    font-size: 13px;
 }
 
 .navbar, a, img{
     justify-content:center ;
     margin-top: 3px;
     font-weight: 600;
-    height: 80%;
+    height: 70%;
     padding: 0px 10px;
-    height: 90%;
     align-items: center;
     
 }
