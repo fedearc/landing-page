@@ -29,6 +29,12 @@
     
 }
 
+body{
+    background-image: url(./img/mapa-tuc.jpg);
+    
+    
+}
+
 .header{
     background-color:#f3f4f6; 
     background: linear-gradient(#1d5d79,#f5e1cc);
