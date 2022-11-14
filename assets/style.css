@@ -38,14 +38,13 @@ body{
 
 
 .header{
-    background-color:#f3f4f6; 
     background: linear-gradient(#1d5d79,#f5e1cc);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    padding: 0px 30px;
+    padding: 0 30px;
     position: fixed;
 
 }
@@ -95,6 +94,52 @@ main{
     width: 100%;
     
 }
+
+#hero{
+    margin-top: 65px;
+    padding: 10px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.hero-info{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   width: 50%;
+}
+
+.hero-info h1{
+    font-size: 40px;
+    width: 85%;
+    min-width: 600px;
+    color: var(--rich-black-fogra-39)
+}
+
+.hero-info p{
+    font-size: 17px;
+    width: 95%;
+    
+}
+.hero-info p span{
+    font-weight: 800;
+}
+
+.hero-info ul li a{
+    color: #fdf7f7;
+    background-color: #02085f;
+    font-size: 17px;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    
+}
+
 
 
 .footer{
