@@ -94,8 +94,6 @@ main{
     color: #050404;
     width: 100%;
     
-    
-    
 }
 
 #hero{
@@ -106,7 +104,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;;
+    gap: 15px;
     
     
 }
@@ -118,12 +116,12 @@ main{
    
 }
 
-.hero-img img{
+.hero-img{
     width:300px;
-    height: 300px;
+    height: 250px;
     border-radius: 30px;
-    
 }
+
 
 .hero-info h1{
     font-size: 40px;
@@ -174,6 +172,7 @@ background: linear-gradient(90deg, rgba(194,127,12,1) 6%, rgba(231,157,67,1) 100
     margin-right: 10%;
     margin-left: 10%;
     width: 70%;
+    height: 180px
     
 }
 .footer{
