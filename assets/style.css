@@ -106,7 +106,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;;
     
     
 }
@@ -115,7 +115,14 @@ main{
    display: flex;
    flex-direction: column;
    gap: 15px;
-   width: 50%;
+   
+}
+
+.hero-img img{
+    width:300px;
+    height: 300px;
+    border-radius: 30px;
+    
 }
 
 .hero-info h1{
@@ -151,11 +158,11 @@ background: linear-gradient(90deg, rgba(194,127,12,1) 6%, rgba(231,157,67,1) 100
     
     width: 300px;
     height: 300px;
+    margin-top: 2rem;
     align-content: center;
     justify-content: center;
-    border-radius: 10px;
-    background: no-repeat center/80%
-    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 
