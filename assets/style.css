@@ -47,6 +47,7 @@ body{
     height: 70px;
     padding: 0 30px;
     position: fixed;
+    top: 0;
 
 }
 
@@ -56,6 +57,11 @@ body{
     margin-left: 1rem
     
 }
+.menu-label{
+    height: 30px;
+    width: 30px;
+    justify-content: left;
+}   
     
 .navbar {
     gap: 18px;
@@ -83,39 +89,33 @@ body{
     height: 70%;
     padding: 0px 10px;
     align-items: center;
-    
 }
 
+
 main{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    
-    
-    
-    
 }
 
 #hero{
-    
-    margin: 100px;
+    margin-top: 70px;
+    padding: 70px 0;
     flex-direction: row;
     max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    
     margin-left: 10%;
 }
 
 .hero-info{
    display: flex;
    flex-direction: column;
-   gap: 40px;
-   min-width: 400px;
+   gap: 20px;
+   width: 60%;
     margin-left: 10%;
 
 }
@@ -124,39 +124,36 @@ main{
 
 
 .hero-info h1{
-    font-size: 60px;
-    width: 90%;
-    min-width: 600px;
-    color: var(--rich-black-fogra-39)
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    color: var(--rich-black-fogra-39);
+    font-weight: 800;
 }
-
 .hero-info p{
-    font-size: 17px;
-    width: 95%;
-    
+    font-size: 18;
+    width: 85%;
 }
-.hero-info p span{
+.hero-info p > span {
     font-weight: 800;
 }
 
-.hero-info ul li a{
+.hero-info a{
     color: #fdf7f7;
-    background-color: #02085f;
-    font-size: 17px;
-    font-weight: 900;
-    justify-content: center;
+    width: 30%;
+    display: flex;
+    flex-direction: row
+    font-size: 20px;
+    padding: 8px 0;
     text-align: center;
-    padding: 8px;
-    background: rgb(194,127,12);
-background: linear-gradient(90deg, rgba(194,127,12,1) 6%, rgba(231,157,67,1) 100%);
+    background: linear-gradient(90deg, rgba(194,127,12,1) 6%, rgba(231,157,67,1) 100%);
     border-radius: 10px;
 }
 
 .hero-img{
-    width: 50%;
-    height: 250px;
+    width: 280px;
     min-width: 250px;
-    border-radius: 25px;  
+    border-radius: 20px;
 }
 
 
@@ -234,11 +231,8 @@ background: linear-gradient(90deg, rgba(194,127,12,1) 6%, rgba(231,157,67,1) 100
 }
 .card-2 p{
     font-size: 14px;
-    
-    
+       
 }
-
-
 
 .card-3{
     height: 200px;
@@ -300,3 +294,7 @@ background: linear-gradient(90deg, rgba(194,127,12,1) 6%, rgba(231,157,67,1) 100
     display: flex;
 }
 
+#menu-toggle,
+.menu-label{
+    display: none;
+}
