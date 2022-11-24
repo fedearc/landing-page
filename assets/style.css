@@ -97,8 +97,8 @@ main{
 }
 
 #hero{
-    margin-top: 70px;
-    padding: 70px 0;
+    margin-top: 75px;
+    padding: 40px 0;
     max-width: 1200px;
     display: flex;
     justify-content: center;
@@ -113,7 +113,7 @@ main{
    justify-content: center;
    align-items: center;
    gap: 20px;
-   width: 60%;
+   width: 90%;
    padding: 10 20;
    margin-left: 10%;
 }
